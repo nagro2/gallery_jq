@@ -1,26 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Image Gallery</title>
-<link rel='stylesheet' type='text/css' href='css/gallery.css'/>
+<title>Sketcher by Nick Agro</title>
+<link rel='stylesheet' type='text/css' href='css/sketcher.css'/>
 </head>
 
 <body>
-<div class="wrapper">
+<a href='#' id='newSketchButton' onclick='newSketch(); return false;'>New sketch</a>
 
-	<div id="slider">
-		<img id=1 src="images/image1.jpeg">
-		<img id=2 src="images/image2.jpeg">
-		<img id=3 src="images/image3.jpeg">
-		<img id=4 src="images/image4.jpeg">
-	</div>
-
-	<a href='#' class='left'>Previous</a>
-	<a href='#' class='right'>Next</a>
-
-</div>
+ <table></table> 
 
 <script src="js/jquery.js"></script>
-<script src="js/slider.js"></script>
+<script src="js/sketcher.js"></script>
+<p id = "posted_date">Posted on 7/20/2015 Nick Agro</p>
 </body>
 </html>

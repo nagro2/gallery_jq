@@ -1,0 +1,22 @@
+td {
+	width:30px;
+	height:30px;
+	/*background-color:blue;*/
+	border: 1px solid red;
+
+}
+
+table {
+	border-spacing:0;
+}
+
+#newSketchButton{
+	padding:5px 10px; /*5px top, 10px left */
+	background-color: #f0f0f0;
+	/*margin-top:30px;*/
+	text-decoration:none;
+	color:#060606;
+	display:block;
+	width:120px;
+	margin-bottom:10px;
+}
